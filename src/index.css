@@ -17,12 +17,24 @@ body {
 
 body {
   overflow-anchor: none;
-  background-color: #fff;
+  background-color: rgb(223,225,229);
+  background-image: linear-gradient(90deg, rgba(223,225,229,1) 55%, rgba(76,154,255,1) 55%, rgba(76,154,255,1) 85%, rgba(223,225,229,1) 85%);
   margin: 0;
+  padding: 2em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
+  color: var(--black);
   line-height: 1.4;
+}
+
+:root {
+  --white: #fff;
+  --black: #1F2937;
+  --gray-300: #D1D5DB;
+  --green-500: #34D399;
+  --green-400: #6EE7B7;
+  --pink-600: #DB2777;
 }
 
 a {

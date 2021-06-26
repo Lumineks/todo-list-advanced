@@ -1,9 +1,12 @@
-import React from 'react';
+import ControlPanel from "./components/ControlPanel/ControlPanel";
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Goodbye world!</h1>
+      <ControlPanel />
+      <main></main>
+      
     </div>
   );
 }

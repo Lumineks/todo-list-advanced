@@ -1,0 +1,38 @@
+.controlPanel {
+  border-right: 1px solid var(--gray-300);
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 2em;
+  height: 100%;
+}
+
+.groups {
+  margin-bottom: auto;
+}
+
+.addBtn {
+  width: 100%;
+  background-color: var(--green-500);
+  border-radius: 15px;
+  padding: 8px 10px;
+  justify-content: center;
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.addBtn:hover {
+  background-color: var(--green-400);
+}
+
+.addBtn:active {
+  transform: scale(0.99);
+}

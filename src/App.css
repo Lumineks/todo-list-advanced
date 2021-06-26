@@ -1,0 +1,11 @@
+.App {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: var(--white);
+  min-height: 750px;
+  height: 90vh;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  display: grid;
+  grid-template-columns: 25% 1fr;
+}

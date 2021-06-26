@@ -1,0 +1,45 @@
+.header {
+  padding: 2em;
+  border-bottom: 1px solid var(--gray-300);
+}
+
+.logo {
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.logo span {
+  margin-left: 10px;
+}
+
+.greeting {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.greeting span {
+  color: var(--pink-600);
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.logOut {
+  background-color: #FCA5A5;
+  padding: 3px 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  color: var(--white);
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.logOut:hover {
+  background-color: #FECACA;
+}
+
+.logOut:active {
+  transform: scale(0.98);
+}

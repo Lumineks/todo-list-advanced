@@ -1,0 +1,8 @@
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon span {
+  margin-left: 5px;
+}
