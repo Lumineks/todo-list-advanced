@@ -22,7 +22,7 @@ const ControlPanel: React.FC = () => {
         </div>
 
         <div className={classes.add}>
-          <button className={`${classes.addBtn} icon`} type='button'>
+          <button className={`${classes.addBtn} icon focus:ring-2 ring-green-500 ring-offset-2 focus:scale-105 transform`} type='button'>
             <AiOutlinePlus size={24} />
             <span>Новая задача</span>
           </button>

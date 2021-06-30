@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       </a>
       <div className={classes.greeting}>
         <div>Привет, <span>Имя!</span></div>
-        <button className={classes.logOut} type="button">Выйти</button>
+        <button className={`${classes.logOut} focus:ring-2 ring-red-200 ring-offset-2 focus:scale-105 transform`} type="button">Выйти</button>
       </div>
     </header>
   );
