@@ -1,12 +1,14 @@
 import ControlPanel from "./components/ControlPanel/ControlPanel";
-import './App.css';
+import "./App.css";
+import Body from "./components/Body/Body";
 
 function App() {
   return (
     <div className="App">
       <ControlPanel />
-      <main></main>
-      
+      <main>
+        <Body />
+      </main>
     </div>
   );
 }
