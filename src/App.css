@@ -9,3 +9,61 @@
   display: grid;
   grid-template-columns: 25% 1fr;
 }
+
+.App__top {
+  padding: 1rem;
+  border-bottom: 1px solid var(--gray-300);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App__title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.App__tasks {
+  padding: 1rem;
+}
+
+.App__list--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.App__btns {
+  display: flex;
+  align-items: center;
+}
+
+.btn-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin: 0 5px;
+  padding: 0;
+  width: 27px;
+  height: 27px;
+  outline-color: var(--blue-400-5);
+  outline-offset: 2px;
+}
+
+.btn-view svg {
+  transition: fill 0.2s ease-in-out;
+}
+
+.btn-view:hover svg,
+.btn-view.active svg {
+  fill: var(--blue-400);
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}

@@ -1,4 +1,5 @@
-import { task } from '../../store/tasks';
+import { task } from '../../../store/tasks';
+import './SingleTask.css';
 
 const SingleTask: React.FC<{ task: task }> = (props) => {
   return (

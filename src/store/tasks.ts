@@ -1,4 +1,4 @@
-import { configureStore, createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 export type task = {
   id: string;
@@ -12,7 +12,7 @@ const initialState: task[] = [
   {
     id: '1',
     title: 'Learn React',
-    text: '',
+    text: 'Learning react task text',
     isDone: false,
   },
   {
