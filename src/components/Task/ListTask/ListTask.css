@@ -21,6 +21,6 @@
   width: 100%;
 }
 
-.list-task .task__title {
+.list-task .task__title span{
   -webkit-line-clamp: 1;
 }

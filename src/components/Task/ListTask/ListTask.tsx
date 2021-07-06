@@ -8,8 +8,8 @@ const ListTask: React.FC<{ task: task }> = (props) => {
     <li className='list-task task'>
       <div className='list-task__info'>
         <input className='task__checkbox' type='checkbox' id={`check-task${props.task.id}`} />
-        <label className='task__title line-clamp' htmlFor={`check-task${props.task.id}`}>
-          {props.task.title}
+        <label className='task__title' htmlFor={`check-task${props.task.id}`}>
+          <span className="line-clamp">{props.task.title}</span>
         </label>
 
         {props.task.text && <p className='list-task__text line-clamp'>{props.task.text}</p>}
